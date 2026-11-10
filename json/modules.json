@@ -162,5 +162,81 @@
     "size": 11156,
     "sizeHuman": "10.89 KiB",
     "checksum": "45724b3c071650de11a3c682298c6cd3031e8ac6a75eed413bd88d08d572b051"
+  },
+  {
+    "name": "kismet",
+    "title": "Kismet",
+    "version": "1.0.3",
+    "description": "Wireless network/device detection and tracking via Kismet",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "wifi",
+      "monitor",
+      "detection",
+      "tracking"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/kismet-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/kismet-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 14903617,
+    "sizeHuman": "14554.31 KiB",
+    "checksum": "0c795da07cafff13b7b9f9fa4c542ca68ee31e4e355096a00c04cff1499f9bc3"
+  },
+  {
+    "name": "bettercap",
+    "title": "Bettercap",
+    "version": "1.0.3",
+    "description": "Network recon/MITM framework (ARP spoofing, sniffing, HTTP/S proxying)",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "network",
+      "mitm",
+      "sniffing",
+      "recon"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/bettercap-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/bettercap-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 19575733,
+    "sizeHuman": "19116.93 KiB",
+    "checksum": "ad34b8d03438c1336933683ad6eaeaacdd18b0b7fa1bb478967f425b61878991"
+  },
+  {
+    "name": "mdk4",
+    "title": "MDK4",
+    "version": "1.0.2",
+    "description": "IEEE 802.11 protocol vulnerability testing (beacon flood, deauth, auth DoS, SSID probing)",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "wifi",
+      "monitor",
+      "deauth",
+      "dos"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/mdk4-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/mdk4-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 79014,
+    "sizeHuman": "77.16 KiB",
+    "checksum": "1e7c53d848e618838b86458c1fd697aa8641c984401f645f9929af86acec0049"
+  },
+  {
+    "name": "wireshark",
+    "title": "Wireshark",
+    "version": "1.0.0",
+    "description": "Remote packet capture gateway for Wireshark \u2014 streams live traffic to Wireshark running on your own computer via rpcapd. No Wireshark/tshark binary runs on the router itself.",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "wireshark",
+      "rpcap",
+      "packet capture",
+      "remote capture"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/wireshark-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/wireshark-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 9162,
+    "sizeHuman": "8.95 KiB",
+    "checksum": "841869c31ba2c7a5bc6b99555c404e75f7711c2c9ec11c527774d8f2957efef0"
   }
 ]
