@@ -1,0 +1,166 @@
+[
+  {
+    "name": "captures",
+    "title": "Captures",
+    "version": "1.0.3",
+    "description": "Browse per-device honeypot packet captures on the USB drive and see which devices are connected to the honeypot AP right now, with allow-list status and vendor enrichment",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "capture",
+      "pcap",
+      "honeypot",
+      "clients",
+      "recon"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/captures-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/captures-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 9146,
+    "sizeHuman": "8.93 KiB",
+    "checksum": "cd3de9c16b860a1bf0ba2e4a593d25f514c26dcdcc8c0787115667f2d742a34f"
+  },
+  {
+    "name": "pcapview",
+    "title": "PCAP Analysis",
+    "version": "1.0.0",
+    "description": "Run tcpdump BPF filters and packet decoding (summary, verbose, ASCII, hex) against the saved honeypot captures \u2014 on-device analysis without needing Wireshark on your computer",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "pcap",
+      "tcpdump",
+      "analysis",
+      "packets",
+      "filter"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/pcapview-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/pcapview-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 7224,
+    "sizeHuman": "7.05 KiB",
+    "checksum": "1d07e75254f58df0035bce20ad9721d05c143457b2c087c3081d2d2d4b542d1e"
+  },
+  {
+    "name": "syshealth",
+    "title": "System Health",
+    "version": "1.0.0",
+    "description": "At-a-glance health for the rig \u2014 internal and USB disk usage, SoC temperature, memory, load, uptime, and whether the key daemons (bettercap, hostapd, nginx, php-fpm) are running",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "health",
+      "disk",
+      "temperature",
+      "status",
+      "monitoring"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/syshealth-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/syshealth-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 6841,
+    "sizeHuman": "6.68 KiB",
+    "checksum": "07bccbb0414beda767b1c91d47ff69a2e58d275e473266c8ba5ec494f4769b00"
+  },
+  {
+    "name": "chanmap",
+    "title": "Channel Map",
+    "version": "1.1.0",
+    "description": "Live 2.4 GHz and 5 GHz channel utilization heatmap \u2014 AP density, signal strength distribution, and airtime data from the monitor radios",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "network",
+      "channel",
+      "heatmap",
+      "spectrum",
+      "rf",
+      "recon"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/chanmap-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/chanmap-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 10178,
+    "sizeHuman": "9.94 KiB",
+    "checksum": "fe68743a820aa4cda02aede784297d99bd88cf480d01708c0737d17dd6d7d07f"
+  },
+  {
+    "name": "macfilter",
+    "title": "MAC Allow-List",
+    "version": "1.1.0",
+    "description": "View, add, and remove MAC addresses on Aura's shared allow-list used by deauth and MITM automation",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "network",
+      "aura",
+      "filter",
+      "allow-list"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/macfilter-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/macfilter-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 13246,
+    "sizeHuman": "12.94 KiB",
+    "checksum": "67934aa0279b9dec216a30881d14ecd6b1c169b7576df92128b425057430c82e"
+  },
+  {
+    "name": "hsharvest",
+    "title": "Handshake Harvester",
+    "version": "1.0.0",
+    "description": "Scan capture files for WPA handshakes and PMKID hashes \u2014 ready-to-run hashcat commands, one click away",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "network",
+      "handshake",
+      "wpa",
+      "pmkid",
+      "hashcat",
+      "capture"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/hsharvest-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/hsharvest-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 12431,
+    "sizeHuman": "12.14 KiB",
+    "checksum": "ec896cbe6e84c2206c309c70c97452a7572aff20f72fc4c7fcf7ed3108086a3c"
+  },
+  {
+    "name": "livecap",
+    "title": "Live Capture",
+    "version": "1.0.0",
+    "description": "Real-time packet feed from monitor radios \u2014 filter by frame type (deauth, probe, EAPOL, beacon, data) with per-packet BSSID and vendor enrichment",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "network",
+      "tshark",
+      "wireshark",
+      "capture",
+      "live",
+      "packets",
+      "deauth",
+      "eapol"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/livecap-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/livecap-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 11302,
+    "sizeHuman": "11.04 KiB",
+    "checksum": "246278719815b5a19a6021c9512d85ad8e6fba6121248182f383e45e20f33bd9"
+  },
+  {
+    "name": "probetracker",
+    "title": "Probe Tracker",
+    "version": "1.0.0",
+    "description": "Live feed of devices broadcasting probe requests \u2014 the SSIDs they're hunting, vendor-enriched, correlated against the allow-list",
+    "author": "ZeroDay Advisory\u2122",
+    "keywords": [
+      "network",
+      "probe",
+      "recon",
+      "wifi",
+      "device-tracking"
+    ],
+    "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/probetracker-module",
+    "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/probetracker-module#readme",
+    "minPanelVersion": "1.4.1",
+    "size": 11156,
+    "sizeHuman": "10.89 KiB",
+    "checksum": "45724b3c071650de11a3c682298c6cd3031e8ac6a75eed413bd88d08d572b051"
+  }
+]
