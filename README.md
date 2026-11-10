@@ -28,6 +28,13 @@ checksum‑verify → extract into `/usr/share/frieren/modules`).
 
 ## Modules
 
+The Frieren module wrapper (UI + controller + packaging) for everything below
+was built by **ZeroDay Advisory™**, not by Frieren's original author. Four of
+these (`kismet`, `bettercap`, `mdk4`, `wireshark`) bundle existing third-party
+security tools — ZeroDay Advisory built the Frieren integration around them,
+not the underlying tools themselves, which remain the work of their own
+upstream projects/authors.
+
 | Module | Title | What it does |
 |--------|-------|--------------|
 | `theme` | Theme Customizer | Recolor the whole panel, pick module icon styles/colors, banner/background images |
@@ -57,10 +64,15 @@ Each bundle contains the module's PHP controller/helper, `manifest.json`,
 
 ## Credit
 
-**Frieren** (the framework these modules extend) was created by **DSR!** —
-<xchwarze@gmail.com> — <https://github.com/xchwarze/frieren>. None of the
-module authors here are affiliated with or claim authorship of the Frieren
-framework itself.
+- **Frieren** (the framework these modules extend/install into) was created by
+  **DSR!** — <xchwarze@gmail.com> — <https://github.com/xchwarze/frieren>.
+  All credit for the framework itself belongs to him; nothing in this repo
+  claims authorship of Frieren.
+- **The Frieren module wrappers packaged in this repo** (listed in the table
+  above) were built by **ZeroDay Advisory™** — <nullbytesX00@icloud.com>.
+  Source for all of them is in the fork linked above. This does not extend
+  to the third-party tools four of these modules bundle (Kismet, Bettercap,
+  mdk4) — those remain the work of their own respective projects.
 
 ## License
 
