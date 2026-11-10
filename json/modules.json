@@ -2,7 +2,7 @@
   {
     "name": "theme",
     "title": "Theme Customizer",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Fully customize the Frieren WebUI's color scheme \u2014 live preview, presets, and a saved theme that applies across every page and module",
     "author": "ZeroDay Advisory\u2122",
     "keywords": [
@@ -15,9 +15,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/theme-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/theme-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 22267,
-    "sizeHuman": "21.75 KiB",
-    "checksum": "55de7393a3a6f964eddc09515603bcf59016fc380207dce46ad5a06d0a4dd7b4"
+    "size": 25914,
+    "sizeHuman": "25.31 KiB",
+    "checksum": "7b8ad6d12d08209c0d1414fdda48b2441edaa71cba997f8b69544a0c8d598da9"
   },
   {
     "name": "captures",
