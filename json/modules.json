@@ -2,7 +2,7 @@
   {
     "name": "theme",
     "title": "Theme Customizer",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Fully customize the Frieren WebUI's color scheme \u2014 live preview, presets, and a saved theme that applies across every page and module",
     "author": "ZeroDay Advisory\u2122",
     "keywords": [
@@ -15,9 +15,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/theme-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/theme-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 25914,
-    "sizeHuman": "25.31 KiB",
-    "checksum": "7b8ad6d12d08209c0d1414fdda48b2441edaa71cba997f8b69544a0c8d598da9"
+    "size": 26065,
+    "sizeHuman": "25.45 KiB",
+    "checksum": "5a06939e723884e15e30b50140b42f0e0325b78a8b57f1feb1f370054aeb5c7e"
   },
   {
     "name": "captures",
@@ -35,9 +35,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/captures-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/captures-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 11287,
-    "sizeHuman": "11.02 KiB",
-    "checksum": "59feab2d005387fa5e1b31e9616a6e40708732d918d54efbce19c7d640498455"
+    "size": 12066,
+    "sizeHuman": "11.78 KiB",
+    "checksum": "c4716e2da0f7067fedd8c9fa294e8f55b6626cce2bce3af0510e9e71657c1b13"
   },
   {
     "name": "pcapview",
@@ -55,9 +55,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/pcapview-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/pcapview-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 15977,
-    "sizeHuman": "15.60 KiB",
-    "checksum": "16ad5215f47842c1099674871671ff091ed4f85e9578289727be868cd79627b1"
+    "size": 18230,
+    "sizeHuman": "17.80 KiB",
+    "checksum": "c475c58700a496aa9e5ebb314deccd22da246b3fa88e8f0593f445b5ab66bbcd"
   },
   {
     "name": "syshealth",
@@ -75,9 +75,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/syshealth-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/syshealth-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 10841,
-    "sizeHuman": "10.59 KiB",
-    "checksum": "04814f515d006ee43799c07ed3e21e542213050747a80d080ed935eb438007c5"
+    "size": 12116,
+    "sizeHuman": "11.83 KiB",
+    "checksum": "b028a851a70e08f1be04a78dde96bbdcbf9a092d62f568ca53c0e4bbd7decb08"
   },
   {
     "name": "chanmap",
@@ -96,9 +96,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/chanmap-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/chanmap-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 11207,
-    "sizeHuman": "10.94 KiB",
-    "checksum": "ac191931c540d93a2af9cfcc9ad008eaa55b0bd50d01feba4db003676da55712"
+    "size": 11730,
+    "sizeHuman": "11.46 KiB",
+    "checksum": "726fd0a79b71bf1aa544e1f9e3216b58fd0dc1af3ecb4ea5f2192a44aa48fee1"
   },
   {
     "name": "macfilter",
@@ -115,9 +115,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/macfilter-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/macfilter-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 17655,
-    "sizeHuman": "17.24 KiB",
-    "checksum": "74a6d256a92228e64dd9fbd4dce58e0febdf976776802b79f1de66bf83ee9976"
+    "size": 20122,
+    "sizeHuman": "19.65 KiB",
+    "checksum": "e1fef276fb88af54c4d8d296b729e16aecb0ff3790a01e18cee64e9dca1c39a7"
   },
   {
     "name": "hsharvest",
@@ -136,9 +136,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/hsharvest-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/hsharvest-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 21069,
-    "sizeHuman": "20.58 KiB",
-    "checksum": "7a7033f5c776a1a1a1838db030e39fe2041dc88d1bf46b339343a4e53617e01e"
+    "size": 23257,
+    "sizeHuman": "22.71 KiB",
+    "checksum": "e434ea92ef5cf7336172a6542f45d24a07f0686e1b4bfb6f6d1a64a19a2a136b"
   },
   {
     "name": "livecap",
@@ -159,9 +159,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/livecap-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/livecap-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 17169,
-    "sizeHuman": "16.77 KiB",
-    "checksum": "f85fc410a7c06e30fe2fba2a8f4edabdb2f577e305f78953f8c7c506e2f4ac70"
+    "size": 18649,
+    "sizeHuman": "18.21 KiB",
+    "checksum": "8eeb3bbef1564ae6ef01774efe071b8ffd792d988d3e8e23d19b1abe417a2cad"
   },
   {
     "name": "probetracker",
@@ -179,9 +179,9 @@
     "repository": "https://github.com/ZeroDayAdvisory/frieren/tree/master/probetracker-module",
     "documentation": "https://github.com/ZeroDayAdvisory/frieren/tree/master/probetracker-module#readme",
     "minPanelVersion": "1.4.1",
-    "size": 17731,
-    "sizeHuman": "17.32 KiB",
-    "checksum": "0c1cb2868e33f2687ad2c728f07097ca84bc5be0f7ce31cf03d72ebe5f912796"
+    "size": 19556,
+    "sizeHuman": "19.10 KiB",
+    "checksum": "1fb339e1b5224a5cf99a1d4f5460998cf34364819ec3cfc4c6bba5be31ecc316"
   },
   {
     "name": "kismet",
